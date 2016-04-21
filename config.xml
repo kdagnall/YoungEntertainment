@@ -22,6 +22,7 @@
     <gap:plugin name="org.apache.cordova.vibration" />
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="com.simplec.plugins.localnotification" />
+	<gap:plugin name="org.apache.cordova.whitelist" />
 
 	<icon src="icon.png" />
 	
@@ -34,6 +35,8 @@
     <icon src="res/icons/android/drawable-mdpi/Icon.png" gap:platform="android" gap:density="mdpi" />
     <icon src="res/icons/android/drawable-hdpi/Icon.png" gap:platform="android" gap:density="hdpi" />
     <icon src="res/icons/android/drawable-xdpi/Icon.png" gap:platform="android" gap:density="xhdpi" />
+	<icon src="res/icons/android/drawable-xxdpi/Icon.png" gap:platform="android" gap:density="xxhdpi" />
+	<icon src="res/icons/android/drawable-xxxdpi/Icon.png" gap:platform="android" gap:density="xxxhdpi" />
 	
     <gap:splash src="splash.png" />
     
@@ -47,5 +50,20 @@
     <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
 
     <content src="http://youngentertainmentmag.com" />
-    <access origin="*" subdomains="true" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+	<access origin="http://youngentertainmentmag.com" subdomains="true"/>
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
 </widget>
