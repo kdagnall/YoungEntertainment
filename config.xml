@@ -4,7 +4,7 @@
     <name>Young Entertainment</name>
     <description>Young Entertainment Magazine brings you news about your favorite young adult books, movies, TV Shows and rising music stars.</description>
     <author email="admin@YoungEntertainmentMag.com" href="http://youngentertainmentmag.com">Young Entertainment Magazine</author>
-
+	<preference name="phonegap-version" value="3.3.0" />
     <feature name="http://api.phonegap.com/1.0/device" />
     
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
