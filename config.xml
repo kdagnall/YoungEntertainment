@@ -9,44 +9,44 @@
     
     <preference name="orientation" value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
     
-    <plugin name="org.apache.cordova.device" />
-    <plugin name="org.apache.cordova.camera" />
-    <plugin name="org.apache.cordova.media-capture" />
-    <plugin name="org.apache.cordova.file" />
-    <plugin name="org.apache.cordova.file-transfer" />
-    <plugin name="org.apache.cordova.splashscreen" />
-    <plugin name="org.apache.cordova.contacts" />
-    <plugin name="org.apache.cordova.geolocation" />
-    <plugin name="org.apache.cordova.inappbrowser" />
-    <plugin name="org.apache.cordova.dialogs" />
-    <plugin name="org.apache.cordova.vibration" />
-    <plugin name="org.apache.cordova.network-information" />
-    <plugin name="com.simplec.plugins.localnotification" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.media-capture" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.file-transfer" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.contacts" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.vibration" />
+    <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="com.simplec.plugins.localnotification" />
 
 	<icon src="icon.png" />
 	
-    <icon src="res/icons/ios/Icon.png" platform="ios" width="57" height="57" />
-    <icon src="res/icons/ios/Icon@2x.png" platform="ios" width="114" height="114" />    
-    <icon src="res/icons/ios/Icon-72.png" platform="ios" width="72" height="72" />
-    <icon src="res/icons/ios/Icon-72@2x.png" platform="ios" width="144" height="144" />
+    <icon src="res/icons/ios/Icon.png" gap:platform="ios" width="57" height="57" />
+    <icon src="res/icons/ios/Icon@2x.png" gap:platform="ios" width="114" height="114" />    
+    <icon src="res/icons/ios/Icon-72.png" gap:platform="ios" width="72" height="72" />
+    <icon src="res/icons/ios/Icon-72@2x.png" gap:platform="ios" width="144" height="144" />
 
-    <icon src="res/icons/android/drawable-ldpi/Icon.png" platform="android" density="ldpi" />
-    <icon src="res/icons/android/drawable-mdpi/Icon.png" platform="android" density="mdpi" />
-    <icon src="res/icons/android/drawable-hdpi/Icon.png" platform="android" density="hdpi" />
-    <icon src="res/icons/android/drawable-xdpi/Icon.png" platform="android" density="xhdpi" />
-	<icon src="res/icons/android/drawable-xxdpi/Icon.png" platform="android" density="xxhdpi" />
-	<icon src="res/icons/android/drawable-xxxdpi/Icon.png" platform="android" density="xxxhdpi" />
+    <icon src="res/icons/android/drawable-ldpi/Icon.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="res/icons/android/drawable-mdpi/Icon.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="res/icons/android/drawable-hdpi/Icon.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="res/icons/android/drawable-xhdpi/Icon.png" gap:platform="android" gap:density="xhdpi" />
+	<icon src="res/icons/android/drawable-xxhdpi/Icon.png" gap:platform="android" gap:density="xxhdpi" />
+	<icon src="res/icons/android/drawable-xxxhdpi/Icon.png" gap:platform="android" gap:density="xxxhdpi" />
 	
-    <splash src="splash.png" />
+    <gap:splash src="splash.png" />
     
-    <splash src="res/screen/android/drawable-ldpi/splash.png"  platform="android" density="ldpi" />
-    <splash src="res/screen/android/drawable-mdpi/splash.png"  platform="android" density="mdpi" />
-    <splash src="res/screen/android/drawable-hdpi/splash.png"  platform="android" density="hdpi" />
-    <splash src="res/screen/android/drawable-xdpi/splash.png" platform="android" density="xhdpi" />
+    <gap:splash src="res/screen/android/drawable-ldpi/splash.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="res/screen/android/drawable-mdpi/splash.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="res/screen/android/drawable-hdpi/splash.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="res/screen/android/drawable-xhdpi/splash.png" gap:platform="android" gap:density="xhdpi" />
     
-    <splash src="res/screen/ios/Default.png" platform="ios" width="320" height="480" />
-    <splash src="res/screen/ios/Default@2x.png" platform="ios" width="680" height="960" />
-    <splash src="res/screen/ios/Deafult-568h-2x.png" platform="ios" width="640" height="1136" />
+    <gap:splash src="res/screen/ios/Default.png" gap:platform="ios" width="320" height="480" />
+    <gap:splash src="res/screen/ios/Default@2x.png" gap:platform="ios" width="680" height="960" />
+    <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
 
     <content src="http://youngentertainmentmag.com" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
